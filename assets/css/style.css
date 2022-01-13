@@ -1,0 +1,44 @@
+body {
+  font-family: "Roboto";
+}
+
+.blog-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121619;
+  height: 206px;
+}
+.blog-footer__logo {
+  width: 81px;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .blog-footer__logo {
+    width: 81px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog-footer {
+    width: auto;
+    height: 199px;
+  }
+}
+
+.navbar {
+  display: flex;
+  background-color: #121619;
+  height: 96px;
+}
+.navbar__logo {
+  width: 81px;
+  height: auto;
+  margin-left: 50px;
+  padding-left: 0px;
+}
+.navbar .navbar-collapse {
+  justify-content: end;
+}
+
+/*# sourceMappingURL=style.css.map */
