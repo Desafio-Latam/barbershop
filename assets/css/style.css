@@ -1,5 +1,36 @@
 body {
-  font-family: "Roboto";
+  font-family: "Playfair Display";
+  font-family: "Roboto", "Playfair";
+}
+
+/* 
+.btn{
+
+}
+.btn-primary{
+    margin:62px auto;
+    width: 163px;
+    font-size: 14px;
+
+}
+.container{
+    text-align: center;
+
+}
+.mt-3{
+
+} */
+.buttons {
+  text-align: center;
+}
+.buttons__primary {
+  background: #1216199E;
+  color: white;
+  font-size: 14px;
+  border-radius: 50px;
+  width: 163px;
+  height: 46px;
+  opacity: 1;
 }
 
 .blog-footer {
@@ -39,6 +70,49 @@ body {
 }
 .navbar .navbar-collapse {
   justify-content: end;
+}
+
+/* 
+.TituloTop{
+    color: white;
+    position: absolute;
+    margin-top: 235px;
+    text-align: center;
+
+
+}
+.col{
+    &__logo{
+        width: auto;
+        height: 640px;
+
+
+
+    }
+}
+.container{
+    position: relative;
+    display: inline-block;
+
+
+
+}
+.row{
+
+} */
+.contact {
+  display: grid;
+  margin: auto center;
+}
+.contact__image {
+  width: 131px;
+  height: 133px;
+}
+.contact__name {
+  display: inline-block;
+}
+.contact__naomi {
+  font-family: Playfair;
 }
 
 /*# sourceMappingURL=style.css.map */

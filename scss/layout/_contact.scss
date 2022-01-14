@@ -1,0 +1,19 @@
+
+
+.contact {
+  display: grid;
+  margin: auto center;
+
+  &__image {
+    width: 131px;
+    height: 133px;
+  }
+  &__name {
+    display: inline-block;
+  }
+  &__naomi {
+    font-family: Playfair;
+  }
+}
+
+

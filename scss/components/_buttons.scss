@@ -1,0 +1,31 @@
+/* 
+.btn{
+
+}
+.btn-primary{
+    margin:62px auto;
+    width: 163px;
+    font-size: 14px;
+
+}
+.container{
+    text-align: center;
+
+}
+.mt-3{
+
+} */
+
+.buttons {
+    text-align: center;
+
+  &__primary {
+    background: $color-buttom;
+    color: white;
+    font-size: 14px;
+    border-radius: 50px;
+    width: 163px;
+    height: 46px;
+    opacity: 1;
+  }
+}
