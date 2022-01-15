@@ -1,19 +1,26 @@
 .barber-title {
-
-   position: relative;
-   display: inline-block;
+  background-image: url(../images/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   &__bg {
-     position: absolute;
-    top: 50px;
-    z-index: 2;
+  
+   
   }
   &__title {
     font-family: $playfair,sans-serif;
     font-weight: 900;
     font-style: italic;
     font-size: $fz-xx-large;
-    color: rosybrown;
+    color: white;
     text-align: center;
+    z-index: 1;
+    
     
   }
 }

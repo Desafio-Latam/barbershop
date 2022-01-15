@@ -72,21 +72,23 @@ body {
 }
 
 .barber-title {
-  position: relative;
-  display: inline-block;
-}
-.barber-title__bg {
-  position: absolute;
-  top: 50px;
-  z-index: 2;
+  background-image: url(../images/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .barber-title__title {
   font-family: "Playfair Display", sans-serif;
   font-weight: 900;
   font-style: italic;
   font-size: 40px;
-  color: rosybrown;
+  color: white;
   text-align: center;
+  z-index: 1;
 }
 
 .contact {
@@ -104,6 +106,13 @@ body {
   font-weight: 900;
   font-style: italic;
   font-size: 30px;
+}
+
+.description__date {
+  display: block;
+}
+.description__letters {
+  display: block;
 }
 
 .description__letters {
