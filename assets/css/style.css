@@ -1,6 +1,5 @@
 body {
-  font-family: "Playfair Display";
-  font-family: "Roboto", "Playfair";
+  font-family: "Roboto", sans-serif;
 }
 
 /* 
@@ -72,37 +71,26 @@ body {
   justify-content: end;
 }
 
-/* 
-.TituloTop{
-    color: white;
-    position: absolute;
-    margin-top: 235px;
-    text-align: center;
-
-
+.barber-title {
+  position: relative;
+  display: inline-block;
 }
-.col{
-    &__logo{
-        width: auto;
-        height: 640px;
-
-
-
-    }
+.barber-title__bg {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
 }
-.container{
-    position: relative;
-    display: inline-block;
-
-
-
+.barber-title__title {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 40px;
+  color: rosybrown;
+  text-align: center;
 }
-.row{
 
-} */
 .contact {
-  display: grid;
-  margin: auto center;
+  text-align: center;
 }
 .contact__image {
   width: 131px;
@@ -112,7 +100,15 @@ body {
   display: inline-block;
 }
 .contact__naomi {
-  font-family: Playfair;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.description__letters {
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

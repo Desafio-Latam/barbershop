@@ -1,37 +1,19 @@
-/* 
-.TituloTop{
-    color: white;
-    position: absolute;
-    margin-top: 235px;
-    text-align: center;
-    
-
-}
-.col{
-    &__logo{
-        width: auto;
-        height: 640px;
-       
-        
-
-    }
-}
-.container{
-    position: relative;
-    display: inline-block;
-    
-    
-
-}
-.row{
-
-} */
 .barber-title {
 
-  &__logo {
-
+   position: relative;
+   display: inline-block;
+  &__bg {
+     position: absolute;
+    top: 50px;
+    z-index: 2;
   }
   &__title {
-      
+    font-family: $playfair,sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: $fz-xx-large;
+    color: rosybrown;
+    text-align: center;
+    
   }
 }

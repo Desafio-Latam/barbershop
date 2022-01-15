@@ -1,18 +1,24 @@
 
 
 .contact {
-  display: grid;
-  margin: auto center;
+  
+  text-align: center;
+  
 
   &__image {
     width: 131px;
     height: 133px;
+    
   }
   &__name {
     display: inline-block;
   }
   &__naomi {
-    font-family: Playfair;
+    font-family: $playfair,sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: $fz-x-large;
+
   }
 }
 
