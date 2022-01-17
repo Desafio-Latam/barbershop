@@ -91,6 +91,11 @@ body {
   z-index: 1;
 }
 
+.col {
+  margin: 0px;
+  padding: 0px;
+}
+
 .contact {
   text-align: center;
 }
